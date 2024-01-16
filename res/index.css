@@ -1,0 +1,429 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1163px;
+  height: 1453px;
+  margin: 0 auto;
+}
+.rectangle {
+  position: absolute;
+  width: 1138px;
+  height: 1453px;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+}
+.rectangle-1 {
+  position: absolute;
+  width: 551px;
+  height: 1453px;
+  top: 0;
+  left: 587px;
+  font-size: 0px;
+  background: #000000;
+  z-index: 1;
+}
+.education {
+  display: block;
+  position: relative;
+  height: 54px;
+  margin: 181px 0 0 65px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.568px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 17;
+}
+.languages {
+  display: block;
+  position: relative;
+  height: 57px;
+  margin: 949px 0 0 65px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.568px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 26;
+}
+.english-professional-telugu-native {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 486px;
+  height: 154px;
+  margin: 15px 0 0 65px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.205px;
+  text-align: left;
+  z-index: 27;
+}
+.pralayakaveri {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 308px;
+  height: 123px;
+  top: 31px;
+  left: 259px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 43.568px;
+  text-align: left;
+  z-index: 3;
+}
+.dhanush {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 220px;
+  height: 136px;
+  top: 31px;
+  left: 55px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 43.568px;
+  text-align: left;
+  z-index: 2;
+}
+.profile {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 54px;
+  top: 181px;
+  left: 55px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.568px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+}
+.versatile-mtech-cse {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 512px;
+  height: 297px;
+  top: 235px;
+  left: 55px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.205px;
+  text-align: left;
+  z-index: 14;
+}
+.experience {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 276.437px;
+  height: 81px;
+  top: 546px;
+  left: 55px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.568px;
+  text-align: left;
+  z-index: 5;
+}
+.creation-club-manager {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 340.975px;
+  height: 65px;
+  top: 639px;
+  left: 60.378px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 7;
+}
+.experienced-manager {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 506.622px;
+  height: 360px;
+  top: 685px;
+  left: 60.378px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.205px;
+  text-align: left;
+  z-index: 8;
+}
+.ecs-team-manager {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 495.866px;
+  height: 44px;
+  top: 1001px;
+  left: 57.151px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 9;
+}
+.accomplished-team-manager {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 506.622px;
+  height: 391px;
+  top: 1045px;
+  left: 55px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.205px;
+  text-align: left;
+  z-index: 10;
+}
+.contact-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 511px;
+  height: 62px;
+  top: 68px;
+  left: 652px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.205px;
+  text-align: left;
+  z-index: 11;
+}
+.education-2 {
+  position: absolute;
+  width: 511px;
+  height: 297px;
+  top: 235px;
+  left: 652px;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.205px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 18;
+}
+.class-xii {
+  position: relative;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.205px;
+  text-align: left;
+}
+.gitanjali-school-kavali {
+  position: relative;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.205px;
+  text-align: left;
+}
+.empty {
+  position: relative;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24.205px;
+  text-align: left;
+}
+.class-xii-3 {
+  position: relative;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.205px;
+  text-align: left;
+}
+.gitanjali-school-kavali-4 {
+  position: relative;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.205px;
+  text-align: left;
+}
+.empty-5 {
+  position: relative;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24.205px;
+  text-align: left;
+}
+.class-xii-6 {
+  position: relative;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.205px;
+  text-align: left;
+}
+.gitanjali-school-kavali-7 {
+  position: relative;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.205px;
+  text-align: left;
+}
+.empty-8 {
+  position: relative;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.205px;
+  text-align: left;
+}
+.skills {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 61px;
+  top: 546px;
+  left: 652px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.568px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 20;
+}
+.team-leadership-project {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 511px;
+  height: 197px;
+  top: 627px;
+  left: 652px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.205px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 21;
+  overflow: hidden;
+}
+.tools {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 64px;
+  top: 865px;
+  left: 652px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.568px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 23;
+}
+.photoshop-figma-pycharm {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 511px;
+  height: 231px;
+  top: 929px;
+  left: 652px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.205px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 24;
+  overflow: hidden;
+}
